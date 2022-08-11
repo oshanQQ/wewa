@@ -1,5 +1,7 @@
 # wewa
 
+[![CI](https://github.com/oshanQQ/wewa/actions/workflows/ci.yml/badge.svg)](https://github.com/oshanQQ/wewa/actions/workflows/ci.yml)
+
 # Description
 
 wewa converts webm audio files to wav audio files. wewa is a very simple command to execute.
