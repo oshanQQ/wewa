@@ -1,8 +1,11 @@
 # wewa
 
-[![CI](https://github.com/oshanQQ/wewa/actions/workflows/ci.yml/badge.svg)](https://github.com/oshanQQ/wewa/actions/workflows/ci.yml)
+<p>
 
+[![CI](https://github.com/oshanQQ/wewa/actions/workflows/ci.yml/badge.svg)](https://github.com/oshanQQ/wewa/actions/workflows/ci.yml)
 [![.github/workflows/release.yml](https://github.com/oshanQQ/wewa/actions/workflows/release.yml/badge.svg)](https://github.com/oshanQQ/wewa/actions/workflows/release.yml)
+
+</p>
 
 # Description
 
