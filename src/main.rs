@@ -5,10 +5,17 @@ use clap::Parser;
 struct Arguments {
     #[clap(value_parser)]
     file_name: Option<String>,
+
+    #[clap(short, long, action)]
+    all: bool,
 }
 
 fn main() {
     let arguments = Arguments::parse();
+
+    if arguments.all {
+        print!("All files are selected!\n");
+    }
 
     if let Some(file_name) = arguments.file_name.as_deref() {
         print!("File name is \"{}\"\n", file_name);
