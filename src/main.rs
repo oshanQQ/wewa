@@ -1,7 +1,7 @@
 use clap::Parser;
 
 #[derive(Parser, Debug)]
-#[clap(name = "wewa", author = "author: oshanQQ", about = "Command line tool to convert from webm to wav")]
+#[clap(name = "wewa")]
 struct Arguments {
     #[clap(value_parser)]
     file_name: Option<String>,
