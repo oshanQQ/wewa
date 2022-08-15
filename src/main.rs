@@ -14,10 +14,10 @@ fn main() {
     let arguments = Arguments::parse();
 
     if arguments.all {
-        print!("All files are selected!\n");
+        println!("All files are selected!");
     }
 
     if let Some(file_name) = arguments.file_name.as_deref() {
-        print!("File name is \"{}\"\n", file_name);
+        println!("File name is \"{}\"", file_name);
     }
 }
